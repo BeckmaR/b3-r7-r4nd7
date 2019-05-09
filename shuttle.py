@@ -33,6 +33,7 @@ graph = Graph(data["nodes"], data["edges"])
 start_node = graph[START]
 target_node = graph[TARGET]
 
+# Compute shortest path
 path = graph.shortest_path(start_node, target_node)
 
 print("\nPath computed:")
